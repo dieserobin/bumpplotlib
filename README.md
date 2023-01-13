@@ -4,5 +4,6 @@ This is a library for generating bump charts in python. And it is in its very ea
 
 Current goals:
 
-* Provide functions to rank data
-* Better variable naming
+* ranks assume 1 … n as best … worst (choix results are 0-indexed)
+* ascending = False, make yaxis and rank axis invertable
+* color schemes (using seaborn)
